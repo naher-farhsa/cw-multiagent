@@ -1,0 +1,25 @@
+# Environment / secrets
+.env
+
+# Virtual environment
+venv/
+.venv/
+env/
+
+# Generated output
+doc-result/
+
+# Python bytecode / caches
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# IDE / editor
+.vscode/
+.idea/
+*.swp
+.DS_Store
