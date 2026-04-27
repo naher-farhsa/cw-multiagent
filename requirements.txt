@@ -1,8 +1,14 @@
+# Core LangGraph / LangChain stack
 langgraph>=0.2.50
 langchain>=0.3.0
 langchain-core>=0.3.0
 langchain-community>=0.3.0
-langchain-groq>=0.2.0
-langchain-tavily>=0.1.0
-python-dotenv>=1.0.1
-typing-extensions>=4.12.0
+langchain-groq>=0.2.0          # Groq LLM integration (ChatGroq)
+langchain-tavily>=0.1.0        # Tavily Search tool integration
+
+# Environment & typing
+python-dotenv>=1.0.1           # loads .env file into os.environ
+typing-extensions>=4.12.0      # TypedDict, Literal backports for older Python
+
+# Chart generation (generate_chart tool in file_tools.py)
+matplotlib>=3.8.0              # bar / line / pie chart rendering saved as .png
